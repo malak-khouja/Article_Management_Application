@@ -1,18 +1,93 @@
-## Getting Started
+# Article Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A JavaFX-based desktop application for managing articles with a graphical user interface and database integration.
 
-## Folder Structure
+## 📋 Features
 
-The workspace contains two folders by default, where:
+- **Create Articles** - Add new articles with code, label, quantity, and price information
+- **View Articles** - Browse all articles with search and filter functionality
+- **Update Articles** - Modify existing article details
+- **Delete Articles** - Remove articles from the system
+- **Database Integration** - Persistent data storage using JDBC
+- **User-Friendly UI** - Intuitive interface built with JavaFX
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📦 Requirements
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java 11 or higher
+- JavaFX SDK
+- JDBC Database Driver
+- Database configured in `database.Properties`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 Installation & Setup
 
-## Dependency Management
+### Step 1: Clone or Download
+Download the project to your local machine
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Step 2: Configure Database
+Edit `src/database.Properties` and update:
+- Database URL
+- Username
+- Password
+- JDBC Driver class
+
+### Step 3: Add JavaFX Libraries
+- Add JavaFX SDK to your project classpath
+- Configure in your IDE settings
+
+### Step 4: Compile and Run
+```bash
+javac -d bin src/*.java
+java -cp bin:lib/* interfacefx.interfacefx.src.App
+```
+
+## 💻 Usage
+
+1. **Launch Application** - Run the App class
+2. **Main Menu Options:**
+   - **Create Article** - Enter code, label, quantity, and price
+   - **View All Articles** - Search and browse all articles
+   - **Update Article** - Modify article information
+   - **Delete Article** - Remove articles
+
+## 📁 Project Structure
+
+```
+interfacefx/
+├── src/
+│   ├── App.java                 # Main JavaFX application
+│   ├── Article.java             # Article model
+│   ├── ArticleDb.java           # Database operations (CRUD)
+│   ├── DBConnection.java        # Database connection handler
+│   ├── Client.java              # Client management
+│   ├── Commande.java            # Order management
+│   ├── Main.java                # Application entry point
+│   ├── TestConnexion.java       # Connection tests
+│   ├── database.Properties      # Database configuration
+│   └── Opération.java           # Operations utilities
+├── bin/
+│   └── MainScene.fxml           # UI Layout file
+└── lib/                         # External libraries
+```
+
+## 🛠️ Built With
+
+- **JavaFX** - Modern Java UI framework
+- **JDBC** - Database connectivity
+- **Java 11+** - Programming language
+
+## ✨ Key Features
+
+- Input validation for all forms
+- Error handling with user-friendly messages
+- Real-time search functionality
+- Modal dialogs for operations
+- Responsive UI design
+- Database connection management
+
+## 📝 License
+
+Educational project
+
+## 👨‍💻 Author
+
+Java Programming Project
