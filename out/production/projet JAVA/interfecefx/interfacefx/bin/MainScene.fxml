@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <Button fx:id="b" layoutX="215.0" layoutY="317.0" mnemonicParsing="false" onAction="#btnSauvegarderClicked" prefHeight="26.0" prefWidth="170.0" text="Sauvegarder" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" layoutY="41.0" prefHeight="34.0" prefWidth="119.0" text="ARTICLE" textFill="#e18080" textOverrun="CLIP" AnchorPane.bottomAnchor="324.6" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.8" AnchorPane.topAnchor="40.79999999999999">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="109.0" prefHeight="18.0" prefWidth="225.0" text="Saisir code de l'article :" />
+      <Label layoutX="119.0" layoutY="158.0" prefHeight="18.0" prefWidth="225.0" text="Saisir libelle de l'article :" />
+      <Label layoutX="119.0" layoutY="206.0" prefHeight="18.0" prefWidth="225.0" text="saisir quantité en stock :" />
+      <Label layoutX="119.0" layoutY="252.0" prefHeight="18.0" prefWidth="225.0" text="Saisir le prix de l'article :" />
+      <Label layoutX="345.0" layoutY="150.0" />
+      <TextField fx:id="T3" layoutX="345.0" layoutY="203.0" />
+      <TextField fx:id="T1" layoutX="345.0" layoutY="106.0" />
+      <TextField fx:id="T2" layoutX="345.0" layoutY="155.0" />
+      <TextField fx:id="T4" layoutX="345.0" layoutY="249.0" />
+   </children>
+</AnchorPane>

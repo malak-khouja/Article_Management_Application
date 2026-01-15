@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TestConnexion",
+            "request": "launch",
+            "mainClass": "interfecefx.interfacefx.src.TestConnexion",
+            "projectName": "projet JAVA_1f9d6876"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "interfecefx.interfacefx.src.Main",
+            "projectName": "projet JAVA_1f9d6876"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "projet JAVA_1f9d6876"
+        },
+        {
+            "type": "java",
+            "name": "ArticleDb",
+            "request": "launch",
+            "mainClass": "ArticleDb",
+            "projectName": "projet JAVA_1f9d6876"
+        },
+        {
+            "type": "java",
+            "name": "TestConnexion",
+            "request": "launch",
+            "mainClass": "TestConnexion",
+            "projectName": "projet JAVA_1f9d6876"
+        },
+        {
+            "type": "java",
+            "name": "ArticleApp",
+            "request": "launch",
+            "mainClass": "interfecefx.interfacefx.src.ArticleApp",
+            "projectName": "projet JAVA_1f9d6876"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "projet JAVA_1f9d6876"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "interfecefx.interfacefx.src.App",
+            "projectName": "projet JAVA_1f9d6876",
+            "vmArgs": "--module-path \"C:/coding/javaFx/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

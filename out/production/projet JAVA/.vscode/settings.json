@@ -1,0 +1,19 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\coding\\javaFx\\javafx-sdk-23.0.1\\lib\\javafx.base.jar",
+        "c:\\coding\\javaFx\\javafx-sdk-23.0.1\\lib\\javafx.controls.jar",
+        "c:\\coding\\javaFx\\javafx-sdk-23.0.1\\lib\\javafx.fxml.jar",
+        "c:\\coding\\javaFx\\javafx-sdk-23.0.1\\lib\\javafx.graphics.jar",
+        "c:\\coding\\javaFx\\javafx-sdk-23.0.1\\lib\\javafx.media.jar",
+        "c:\\coding\\javaFx\\javafx-sdk-23.0.1\\lib\\javafx.swing.jar",
+        "c:\\coding\\javaFx\\javafx-sdk-23.0.1\\lib\\javafx.web.jar",
+        "c:\\coding\\javaFx\\javafx-sdk-23.0.1\\lib\\javafx-swt.jar",
+        "c:\\coding\\postegreSQL\\sqljdbc_12.8\\enu\\jars\\mssql-jdbc-12.8.1.jre8.jar",
+        "c:\\coding\\postegreSQL\\sqljdbc_12.8\\enu\\jars\\mssql-jdbc-12.8.1.jre8-javadoc.jar",
+        "c:\\coding\\postegreSQL\\sqljdbc_12.8\\enu\\jars\\mssql-jdbc-12.8.1.jre8-sources.jar",
+        "c:\\coding\\postegreSQL\\sqljdbc_12.8\\enu\\jars\\mssql-jdbc-12.8.1.jre11.jar",
+        "c:\\coding\\postegreSQL\\sqljdbc_12.8\\enu\\jars\\mssql-jdbc-12.8.1.jre11-javadoc.jar",
+        "c:\\coding\\postegreSQL\\sqljdbc_12.8\\enu\\jars\\mssql-jdbc-12.8.1.jre11-sources.jar"
+    ]
+}

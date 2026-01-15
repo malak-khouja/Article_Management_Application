@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JAVA_aff28ea2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "interfacefx.interfacefx.src.App",
+            "projectName": "JAVA_aff28ea2"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "interfacefx/Main",
+            "request": "launch",
+            "mainClass": "interfacefx/Main",
+            "projectName": "JAVA_aff28ea2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "interfacefx/demointerfacefx.src.main.java.interfacefx.App",
+            "projectName": "JAVA_aff28ea2"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "interfacefx/interfacefx.App",
+            "projectName": "demointerfacefx"
+        }
+    ]
+}

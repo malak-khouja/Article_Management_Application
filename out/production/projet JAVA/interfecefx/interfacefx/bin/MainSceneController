@@ -1,0 +1,42 @@
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+
+public class MainSceneController {
+
+    @FXML
+    private TextField T1;
+
+    @FXML
+    private TextField T2;
+
+    @FXML
+    private TextField T3;
+
+    @FXML
+    private TextField T4;
+
+    @FXML
+    private Button b;
+
+    @FXML
+    void btnSauvegarderClicked(ActionEvent event) {
+        Stage mainWindow1 = (Stage) T1.getScene().getWindow();
+        String title1 = T1.getText();
+        mainWindow1.setTitle(title1);
+
+        Stage mainWindow2 = (Stage) T2.getScene().getWindow();
+        String title2 = T2.getText();
+        mainWindow2.setTitle(title2);
+
+        Stage mainWindow3 = (Stage) T3.getScene().getWindow();
+        String title3 = T3.getText();
+        mainWindow3.setTitle(title3);
+
+        Stage mainWindow4 = (Stage) T4.getScene().getWindow();
+        String title4 = T4.getText();
+        mainWindow4.setTitle(title4);
+    }
+}
